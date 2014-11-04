@@ -14,19 +14,25 @@ html, body {
 
     nav {
         #brand {
-            background-color: orange;
+            // background-color: pink;
             font-family: Lobster, sans-serif;
             font-size: 40px;
             letter-spacing: 2px;
             text-align: center;
-            // width: 50%;
-            height: $navbar-height;
-            // margin-top: -$navbar-height;
+            width: 100%;
+            margin-top: -$navbar-height;
         }
 
         #collapse-button{
-            max-height: 34px;
+            // max-height: 34px;
             background-color: $body-bg;
+            padding-right: 25px;
+            padding-bottom: 22px;
+            padding-top: 22px;
+            padding-left: 20px;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-top: 0;
 
             .active {
                 background-color: white;
