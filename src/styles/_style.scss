@@ -1,0 +1,118 @@
+$footer-height: 50px;
+$body-bg: #87ceeb;
+
+// Material Design Shadows
+$z-depth-1: 0 2px 2px rgba(0,0,0,0.24);
+$z-depth-2: 0 6px 12px rgba(0,0,0,0.23);
+$z-depth-3: 0 12px 12px rgba(0,0,0,0.23);
+$z-depth-4: 0 20px 20px rgba(0,0,0,0.22);
+$z-depth-5: 0 30px 24px rgba(0,0,0,0.22);
+
+html, body {
+    height: 100%;
+    color: white;
+
+    nav {
+        #brand {
+            background-color: orange;
+            font-family: Lobster, sans-serif;
+            font-size: 40px;
+            letter-spacing: 2px;
+            text-align: center;
+            // width: 50%;
+            height: $navbar-height;
+            // margin-top: -$navbar-height;
+        }
+
+        #collapse-button{
+            max-height: 34px;
+            background-color: $body-bg;
+
+            .active {
+                background-color: white;
+                color: $body-bg;
+            }
+
+            .octicon, .mega-octicon {
+                margin-top: -9px;
+                font-size: 28px;
+            }
+        }
+    }
+
+    #body {
+        overflow-x: hidden;
+
+        #callToAction {
+            position: absolute;
+            height: 150px;
+            top: 50%;
+            margin-top: -150px;
+            width: 100%;
+
+            button {
+                border-radius: 2px;
+            }
+
+            .btn-primary:hover {
+                box-shadow: $z-depth-2;
+                border: white;
+            }
+
+            button:active {
+                box-shadow: $z-depth-3;
+            }
+        }
+    }
+
+    // footer {
+    //     height: $footer-height;
+    // }
+
+    #background-mountain-desktop {
+        position: fixed;
+        bottom: 0;
+        z-index: -100;
+        overflow: hidden;
+        $mountain-height: 600px;
+        height: $mountain-height;
+        right: 0;
+        margin-top: -($mountain-height - $footer-height);
+    }
+
+    #background-mountain-mobile {
+        position: fixed;
+        bottom: 0;
+        z-index: -100;
+        overflow: hidden;
+        $mountain-height: 350px;
+        height: $mountain-height;
+        right: 0;
+        margin-top: -($mountain-height - $footer-height);
+    }
+}
+
+/* Material Design Priniciples creating a layered effect */
+.z-depth-1 {
+	box-shadow: $z-depth-1;
+}
+
+.z-depth-2 {
+	box-shadow: $z-depth-2;
+}
+
+.z-depth-3 {
+	box-shadow: $z-depth-3;
+}
+
+.z-depth-4 {
+	box-shadow: $z-depth-4;
+}
+
+.z-depth-5 {
+	box-shadow: $z-depth-5;
+}
+
+.text-depth-1 {
+    text-shadow: $z-depth-1;
+}

@@ -1,0 +1,44 @@
+// Background colour
+$body-bg: #87ceeb;
+
+// Default fonts
+$font-family-sans-serif: Roboto, sans-serif;
+
+// Change when navbar snaps to fit different devices
+$grid-float-breakpoint: 10000px;
+
+// Navbar variables
+$navbar-default-bg: transparent;
+$navbar-height: 60px;
+$navbar-default-color: white;
+$navbar-default-link-color: black;
+$navbar-default-link-hover-color: white;
+$navbar-default-link-hover-bg: darken($body-bg, 3%);
+$navbar-default-link-active-color: white;
+$navbar-default-link-active-bg: darken($body-bg, 3%);
+$navbar-border-radius: 0;
+$navbar-default-border: transparent;
+$navbar-default-toggle-icon-bar-bg: white;
+$navbar-default-toggle-hover-bg: $body-bg;
+$navbar-default-toggle-border-color: $body-bg;
+$navbar-default-brand-color: white;
+$navbar-default-brand-hover-color: white;
+
+// Different fonts for headings
+$headings-font-family: Oswald, sans-serif;
+
+// Default Buttons
+$btn-default-color: white;
+$btn-default-bg: $body-bg;
+$btn-default-border: white;
+
+
+// Style dependencies
+// @import 'googlefonts';
+@import url(https://fonts.googleapis.com/css?family=Lobster|Oswald|Roboto);
+@import 'sprockets-octicons';
+@import 'bootstrap/bootstrap-sprockets';
+@import 'bootstrap/bootstrap';
+
+// Custom stylesheet
+@import 'style';
