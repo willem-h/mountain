@@ -1,4 +1,13 @@
+# Directories
 node_modules/
 .sass-cache/
 dist/scripts
 dist/styles
+
+# Log files
+npm-debug.log
+
+
+# Javascript files
+database.js
+crypto.js

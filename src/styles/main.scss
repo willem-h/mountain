@@ -1,5 +1,5 @@
 // Background colour
-$body-bg: #87ceeb;
+$body-bg: #03A9F4;
 
 // Default fonts
 $font-family-sans-serif: Roboto, sans-serif;
@@ -31,6 +31,16 @@ $headings-font-family: Oswald, sans-serif;
 $btn-default-color: white;
 $btn-default-bg: $body-bg;
 $btn-default-border: white;
+
+// Primary Buttons
+$btn-primary-color: #666666;
+$btn-primary-bg: white;
+$btn-primary-border: #666666;
+
+// Border radius
+$border-radius-base: 2px;
+$border-radius-large: 2px;
+$border-radius-small: 2px;
 
 // Style dependencies
 @import url(https://fonts.googleapis.com/css?family=Lobster|Oswald|Roboto);
